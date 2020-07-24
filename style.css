@@ -1,0 +1,343 @@
+.body{
+	margin:0;
+	padding:0;
+    font-family:'Ibarra Real Nova',serif;
+    background-color: #eaeffa;
+    margin:0;
+	padding:0;
+	}
+
+	.Backgroundcolor{
+		background-color:#eaeffa;
+		margin:0;
+		padding:0;
+		font-family:'Ibarra Real Nova',serif;
+		}
+	
+
+	.topimage{
+	margin-left: auto;
+        margin-right: auto;
+	height:1600px;
+  	}
+
+	
+
+	.center {
+       	display: flex;
+  	justify-content: center;
+        width:50%;
+        padding-top:10px;
+        padding-right: 60px;
+        padding-bottom: 20px;
+        padding-left:400px;
+       }
+
+	.topbar{
+	padding-left:33%;
+	overflow: hidden;
+ 	background-color: #eaeffa;}
+    
+	.topmenu{
+        float: left;
+  	color: #555555;
+ 	text-align: center;
+ 	padding: 14px 16px;
+ 	text-decoration: none;
+ 	font-size: 20px;}
+
+	.column{
+	position:relative;
+ 	margin-bottom:50px;
+	text-align:right;
+	float: left;
+ 	width: 60%;
+ 	height: 400px; /* Should be removed. Only for demonstration */
+	background-color:#eaeffa;
+	font-size: 400%;
+	margin-bottom:100%;
+	}
+	
+	.row{position:relative;
+	float:left;
+	width: 37%;
+ 	padding: 10px;
+ 	height: 300px; 
+	background-color:#eaeffa;}
+
+	.slider-frame
+	{margin-top:30%;
+	margin-left:15%;
+	border-radius: 50%;
+        width:700px;
+	height:700px;
+
+	background:url(marble1.jpg);
+	animation:slide 20s infinite;
+	}
+	
+	@keyframes slide{
+	25%{
+	background:url(p3.jpg);
+	}
+	50%{
+	background:url(p1.jpg);
+	}
+	75%{
+	background:url(p2.jpg);
+	}
+	100%{
+	background:url(p4.jpg);
+	}
+	}
+
+
+	.fixed-bg {
+	background-image: url("marble2.jpg");
+ 	height: 1000px;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	margin:0;
+	padding:0;
+	font-family:Ibarra Real Nova,serif;
+	}
+
+	.bg-text{
+	color: black;
+	font-size: 80px;
+  	position:relative;
+  	top:45%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: 2;
+  	width: 500px;
+  	padding: 20px;
+  	text-align: center;
+	}
+
+	.maintext{
+	background-color:blue;
+	}
+
+	.button {
+ 	background-color: white;
+  	border: none;
+  	color: black;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+	}
+
+	.container1{
+    	width: available;
+    	height: available;
+	}
+
+	.leftpane{
+	position:relative;
+	text-align:center;
+    	width: 30%;
+	margin-left:5%;
+    	min-width: 400px;
+    	height: available;
+    	min-height: 400px;
+    	float: left;
+	}
+
+	.middlepane{
+	position:relative;
+	text-align:center;
+   	width: 30%;
+   	min-width: 400px;
+   	height: available;
+   	min-height: 400px;
+   	float: left;
+
+	}
+
+	.rightpane1{
+	text-align:center;
+	position:relative;
+	position:relative;
+    	width: available;
+    	min-width: 460px;
+   	height: available;
+   	min-height: 400px;
+   	float:left;
+	}
+
+	.text{
+	text-align:center;
+	font-size:30px;
+        }
+	
+	section{
+	padding-bottom:7%;
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	  height: 700px;
+	  width:100%;
+	background:#2169f3;}
+
+	section::before
+	{
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	width:50%;
+	height:100%;
+	background:#03a9f4;
+	}
+
+	section .container{
+	position:relative;
+	min-width:1100px;
+	min-height:550px;
+	display: flex;
+	z-index:1000;
+	}
+
+	section .container .contactinfo{
+	position:absolute;
+	top:40px;
+	width:350px;
+	height: calc(100% - 80px);
+	background: #0f3959;
+	z-index:1;
+	padding:40px;
+	display:flex;
+	justify-content:space-between;
+	box-shadow: 0 20px 20px rgba(0, 0,0,0.2);
+	}
+
+	section .container .contactinfo h2{
+	color:#fff;
+	font-size:24px;
+	font-weight:500;
+	}
+
+	section .container .contactinfo .info{
+	position:relative;
+	margin:20px 0;
+	}
+
+	section .container .contactinfo .info li{
+	position:relative;
+	list-style:none;
+	display:flex;
+	margin:20px 0;
+	cursor:pointer;
+	align-items:flex-start;
+	}
+
+ 	section .container .contactinfo .info li span:nth-child(1){
+	width:30px;
+	min-width:30px;
+	}
+
+	section .container .contactinfo .info li span:nth-child(1) img{
+	max-width:100%;
+	filter:invert(1);
+	opacity:0.5;
+	}
+	
+	section .container .contactinfo .info li span:nth-child(2){
+	color:#fff;
+	margin-left:10px;
+	font-weight:300;
+	}
+
+	section .container .contactinfo .info li:hover span:nth-child(1) img,
+	section .container .contactinfo .info li:hover span:nth-child(2) 
+	{
+	opacity:1;
+	}
+
+	section .container .contactinfo .sci{
+	position:relative;
+	display:flex;
+	}
+
+	section .container .contactinfo .sci li
+	{
+	List-style:none;
+	margin-right:15px;
+	}
+
+	section .container .contactinfo .sci li a img{
+	filter:invert(1);
+	opacity:0.5;
+	}
+
+	section .container .contactinfo .sci li:hover a img{
+	opacity:1;
+	}
+
+	section .container .contactForm
+	{
+	float:left;
+	position:absolute;
+	padding:70px 50 px;
+	background:#fff;
+	margin-left: 200px;
+	padding-left: 300px;
+	width: calc(80% - 150px);
+	height: 115%;
+	box-shadow:0 50px 50px rgba(0,0,0,0.5);
+	}
+
+	section .container .contactForm h2{
+	color:#0f3959;
+	font-size: 24px;
+	font-weight: 500;
+	} 
+
+ 	section .container .contactForm .formbox{
+	position:relative;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+	}
+
+	section .container .contactForm .formbox .inputbox
+	{
+	position:relative;
+	margin: 0 0 35px 0;
+	}
+
+	section .container .contactForm .formbox .inputBox.w50
+	{
+	width:40%;
+	}
+
+	textarea {
+	width: 400px;
+	height: 150px;
+	}
+
+	section .container .contactForm .formbox .inputBox.w100
+	{
+	width:100%;
+	}
+
+	section .container .contactForm .formbox .inputBox input
+	{
+	width:100%;
+	font-size:18px;
+	resize:none;
+	color:#333;
+	border:none;
+	border-bottom:1px solid #777;
+	outline:none;
+	}
+
+

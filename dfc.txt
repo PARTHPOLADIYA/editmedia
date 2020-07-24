@@ -1,0 +1,15 @@
+
+
+
+
+
+
+Create table employee(emp_id int,emp_name varchar(20), address varchar(20), salary int, dob date, age int,dept_id int, dept varchar(20));
+Insert into employee(emp_id,emp_name,address,salary,dob,age,dept_id,dept) values(1, 'riya sen', 'kothrud pune', 20000, '1997-10-4', 23, 101, 'sales');
+Insert into employee (emp_id,emp_name,address,salary,dob,age,dept_id,dept )values(2, 'mahesh sharma', 'dhanori pune', 50000, '1997-8-7', 23, 102, 'manager');
+
+Insert into employee (emp_id,emp_name,address,salary,dob,age,dept_id,dept)values(3, 'shreeyash dixit', 'vimannagar pune', 30000, '1996-11-11', 24,101, 'sales');
+Insert into employee(emp_id,emp_name,address,salary,dob,age,dept_id,dept)values(4, 'tanishqa singh', 'kalyaninagar pune', 25000, '1998-10-7', 25, 103, 'hr');
+Insert into employee (emp_id,emp_name,address,salary,dob,age,dept_id,dept)values(5, 'pooja chopra', 'hadapsar pune', 50000, '1995-10-8', 26, 102, 'manager');
+Insert into employee(emp_id,emp_name,address,salary,dob,age,dept_id,dept) values(6, 'sia dev', 'kothrud pune', 25000, '1997-6-2', 27,102, 'manager');
+select * from employee;
